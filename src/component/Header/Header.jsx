@@ -29,12 +29,12 @@ active : !authStatus,
   {
 name:'All posts',
 slug : "/all-posts",
-active : !authStatus,
+active : true,
   },
   {
 name:'Add Posts',
 slug : "/add-posts",
-active : !authStatus,
+active : authStatus,
   },
 ]
   return (
