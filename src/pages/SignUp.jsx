@@ -1,7 +1,7 @@
 
 import { Signup as SignupComponent } from '../component'
 
-function Signup() {
+function SignUp() {
   return (
     <div className='py-8'>
       Signup
@@ -10,4 +10,4 @@ function Signup() {
   )
 }
 
-export default Signup
+export default SignUp
